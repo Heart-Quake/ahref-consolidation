@@ -145,7 +145,7 @@ def main():
     # Sidebar
     with st.sidebar:
         # Ajout du logo
-        st.image("DR SEO Header.svg", use_column_width=True)
+        st.image("DR SEO Header.svg", use_container_width=True)
         
         st.title("🎯 Analyse SEO")
         
