@@ -126,43 +126,27 @@ def main():
         <style>
         /* Couleur des titres */
         h1, h2, h3 {
-            color: #5C6CA1;
+            color: #58C4B7 !important;
+            font-weight: bold;
         }
         
         /* Style du bouton principal */
         .stButton>button {
-            background-color: #2BAF9C;
+            background-color: #FFA59D !important;
             color: white;
-            border: none;
-            border-radius: 4px;
-            padding: 0.5rem 1rem;
         }
         
         .stButton>button:hover {
-            background-color: #58C4B7;
-        }
-        
-        /* Style des métriques */
-        [data-testid="metric-container"] {
-            background-color: #B6CFF2;
-            padding: 1rem;
-            border-radius: 4px;
-        }
-        
-        /* Style du séparateur */
-        hr {
-            border-color: #FFA59D;
-        }
-        
-        /* Style de la sidebar */
-        [data-testid="stSidebar"] {
-            background-color: #CBDCEA;
+            background-color: #ff8a80 !important;
         }
         </style>
     """, unsafe_allow_html=True)
 
     # Sidebar
     with st.sidebar:
+        # Ajout du logo
+        st.image("DR SEO Header.svg", use_column_width=True)
+        
         st.title("🎯 Analyse SEO")
         
         st.markdown("""

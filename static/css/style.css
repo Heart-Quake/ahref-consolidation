@@ -1,0 +1,34 @@
+/* Couleurs principales */
+:root {
+  --primary-green: #2baf9c;
+  --light-green: #58c4b7;
+  --primary-pink: #ffa59d;
+  --light-blue: #b6cff2;
+  --lighter-blue: #cbdcea;
+}
+
+/* Style des titres */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--light-green);
+  font-weight: bold;
+}
+
+/* Style des boutons */
+.btn-primary {
+  background-color: var(--primary-pink);
+  border-color: var(--primary-pink);
+}
+
+.btn-primary:hover {
+  background-color: #ff8a80; /* Version plus foncée du rose */
+  border-color: #ff8a80;
+}
+
+/* Style des liens */
+a {
+  color: var(--primary-green);
+}
+
+a:hover {
+  color: var(--light-green);
+} 
